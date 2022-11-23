@@ -1,6 +1,6 @@
 i {
-  display: inline-block;
-  margin: 12px;
+  /* display: inline-block;
+  margin: 12px; */
   font-size: 40px;
  }
 
@@ -9,10 +9,15 @@ i {
   background-color: transparent;
 }
 
-.controls:hover {
-  background-color: #929292;
-  border-radius: 50%;
-  cursor: pointer;
+.btn-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.mat-icon-button:hover {
+  background: lightgray;
 }
 
 .contenedor-rep {
@@ -20,7 +25,7 @@ i {
   width: 100%;
   /* max-width: 500px;
   max-height: 900px; */
-  background: linear-gradient(10deg, rgba(255, 255, 255, 0.486) 9%, #1f62be 96%) center center, #2A80F8 ;
+  background: linear-gradient(10deg, rgba(255, 255, 255, 0.178) 9%, #69E9F5 96%) center center, #2A80F8 ;
   padding: 30px;
   border: 1px solid rgba(0,0,0,0.2);
   /* border-radius: 5em; */
@@ -31,7 +36,7 @@ i {
 
 }
 
-.fa-window-close {
+.closebtn {
   margin-left: 20rem;
   cursor: pointer;
 }

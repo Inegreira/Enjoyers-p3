@@ -16,15 +16,15 @@ import { SongService } from '../../services/song.service';
   styleUrls: ['./listado-canciones.component.css']
 })
 export class ListadoCancionesComponent implements OnInit {
-  
+
   @Output() cancionSeleccionada = new EventEmitter<Song>();
 
   songs?: Array<any> = [];
-  state?: StreamState;
+  state: StreamState;
   currentFile: any = {};
   cancionFiltrada: string = '';
 
-  constructor(public audioService: AudioService, 
+  constructor(public audioService: AudioService,
               public songService: SongService) {
     // suscribe a las canciones del servicio
     songService.getFiles().subscribe(songs => {
@@ -51,11 +51,11 @@ export class ListadoCancionesComponent implements OnInit {
     this.audioService.stop();
     this.playStream(file.url);
   }
-  
+
   playStream(url) {
     this.audioService.playStream(url).subscribe(events => {
     });
   }
-  
+
 
 }

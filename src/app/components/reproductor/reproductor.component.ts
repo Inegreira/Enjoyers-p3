@@ -11,18 +11,18 @@ import { AudioService } from '../../services/audio.service';
 })
 export class ReproductorComponent implements OnInit {
 
-  @Input() song?: Song;
+  @Input() song: Song;
 
   state: StreamState;
 
   constructor(
     public audioService: AudioService) {
-    // suscrito al servicio estado del stream 
+    // suscrito al servicio estado del stream
     this.audioService.getState().subscribe(state => {
       this.state = state;
     });
   }
-  
+
   ngOnInit(): void {
   }
 
