@@ -16,6 +16,8 @@ Run ``ng build`` to build the project. The build artifacts will be stored in the
 #### Oriol Llorens Alemany.
 
 ## Link product
-#### [Producto 1. Listado y detalle de todas tus canciones.](https://github.com/Inegreira/Front-End-Enyojers-P1-/releases/tag/v1.2)
-#### [Link to aplication v.1](https://github.com/Inegreira/Front-End-Enyojers-P1-/releases/tag/v1.1)
-#### [Doc](https://docs.google.com/document/d/1ZljrlBdxoy6DL2fH0D4L03DLQwqD3zZ7YEfT_J5MsV0/edit?usp=sharing) 
+#### [Producto 3. Haciendo atractiva nuestra aplicación](https://github.com/Inegreira/Enjoyers-p3/releases/tag/v3.3)
+#### [Link to aplication v.3.1](https://github.com/Inegreira/Enjoyers-p3/releases/tag/v3.1)
+#### [Link to aplication v.3.2](https://github.com/Inegreira/Enjoyers-p3/releases/tag/v3.2)
+#### [Link to aplication v.3.3](https://github.com/Inegreira/Enjoyers-p3/releases/tag/v3.3)
+#### [Doc](https://docs.google.com/document/d/1lmBAiyh1wGX41Emg_dn6Pa2MiBD_Em3t/edit?usp=sharing&ouid=105863112454377253494&rtpof=true&sd=true) 
