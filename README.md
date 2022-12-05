@@ -3,7 +3,7 @@
 ## Running the prototype 
 
 ``This git is a clon, so it doesnt get any changes``
-#### ``cd App`` and ``npm install``
+#### Open terminal and run ``npm install``
 #### Run ``npm start``
 Open browser on http://localhost:4200/ (If u are in Codesandbox just click the link)
 
